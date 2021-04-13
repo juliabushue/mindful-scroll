@@ -9,13 +9,13 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="mindful-scroll/manifest.json">
+<link rel="manifest" href="/mindful-scroll/manifest.json">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
 <!--script needed for loading and caching files-->
 <script>
-navigator.serviceWorker.register("/sw.js").then(registration => {
+navigator.serviceWorker.register("/mindful-scroll/sw.js").then(registration => {
   console.log("success!");
   if (registration.installing) {
     registration.installing.postMessage("Howdy from your installing page.");
