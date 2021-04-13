@@ -9,7 +9,7 @@
     "background_color": "#ffffff",
     "display": "standalone",
     "scope": "./",
-    "icons": [
+"icons": [
         {
             "src": "android-chrome-192x192.png",
             "sizes": "192x192",
