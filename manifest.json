@@ -1,12 +1,14 @@
 {
-    "lang": "en",
+
+"lang": "en",
     "dir": "ltr",
     "name": "MindfulScroll",
     "short_name": "MindfulScroll",
-    "start_url": "index.html",
+    "start_url": "./",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
+    "scope": "./"
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -19,5 +21,4 @@
             "type": "image/png"
         }
     ]
-
 }
