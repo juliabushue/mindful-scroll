@@ -8,6 +8,7 @@
     "background_color": "#ffffff",
     "display": "standalone",
     "scope": "./",
+    "orientation": "portrait",
 "icons": [
         {
             "src": "android-chrome-192x192.png",
